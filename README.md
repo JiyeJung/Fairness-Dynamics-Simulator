@@ -1,6 +1,6 @@
 # Simulating the Dynamics of Fairness: Auditing Feedback Loops in Ranking Systems
 
-> **A pilot project operationalizing "Amortized Fairness" to mitigate the erasure of outliers in generative ranking loops.**
+> **A pilot project illustrating how feedback loops in ranking systems can lead to unequal exposure over time, and how simple dynamic interventions can mitigate this.*
 
 ## 📌 Project Overview
 This project investigates the **"Dynamics of Fairness"** in algorithmic ranking systems. Standard recommendation algorithms often rely on feedback loops (e.g., clicks, views) that create a **"Rich-get-Richer"** phenomenon. Over time, high-quality items from marginalized groups (outliers) can be effectively erased from the system due to a lack of initial exposure.
@@ -37,7 +37,7 @@ The simulator runs two parallel worlds for `300` time steps:
 
 ## 📊 Key Findings
 
-![Simulation Results](results.png)
+![Simulation Results](/Fairness-Dynamics-Simulator/figure/results.png)
 *(Fig 1. Comparison of Naive vs. Fair Simulation Results)*
 
 The results visually confirm the hypothesis regarding the **"Erasure of Outliers"** and the efficacy of the intervention.
